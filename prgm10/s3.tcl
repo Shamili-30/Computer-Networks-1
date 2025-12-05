@@ -34,6 +34,7 @@ $ns duplex-link-op $n1 $n0 orient right-down
 $ns duplex-link-op $n2 $n0 orient right-up
 $ns duplex-link-op $n0 $n3 orient right
 $ns queue-limit $n0 $n3 20
+
 set tcp1 [new Agent/TCP/Vegas]
 $ns attach-agent $n1 $tcp1
 set sink1 [new Agent/TCPSink]
